@@ -1,0 +1,14 @@
+ext.deps = [:]
+
+def dependencies = [:]
+def versions = [:]
+def support = [:]
+def test = [:]
+
+versions.core = '1.8.0'
+
+dependencies.support = support
+dependencies.test = test
+dependencies.version = versions
+
+ext.deps = dependencies
