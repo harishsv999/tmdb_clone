@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searchAction"
+        android:contentDescription="@string/search_action"
+        android:icon="@drawable/search_icon"
+        android:title="@string/search_title"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/settingAction"
+        android:contentDescription="@string/search_action"
+        android:icon="@drawable/setting_icon"
+        android:title="@string/settings_title"
+        app:showAsAction="withText" />
+</menu>
