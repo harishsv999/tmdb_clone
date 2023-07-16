@@ -1,9 +1,10 @@
-#TMDB Clone App
+# TMDB Clone App
 
 
-Screenshot - 1
+Screenshot - 1 : Home Screen
 
-![Alt text](/screenshots/Screenshot_1689454457.png?raw=true "Home Page")
+<img src="/screenshots/Screenshot_1689454457.png" width="240" >
 
-Screenshot - 2
+Screenshot - 2 : Splash Screen
 
+<img src="/screenshots/Screenshot_1689454466.png" width="240" >
