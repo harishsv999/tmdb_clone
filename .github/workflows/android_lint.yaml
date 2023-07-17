@@ -22,7 +22,7 @@ jobs:
       - name: setup JDK
         uses: actions/setup-java@v3
         with:
-          distributions: 'zulu'
+          distribution: 'zulu'
           java-version: '11'
           cache: gradle
       - run: ./gradlew lint
