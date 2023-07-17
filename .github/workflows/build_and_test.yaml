@@ -16,9 +16,10 @@ jobs:
       - name: setup JDK
         uses: actions/setup-java@v3
         with:
-          distributions: zulu
-          java-version: 11
+          distribution: 'zulu'
+          java-version: '17'
           cache: gradle
+      - run: chmod +x ./gradlew
       - run: ./gradlew lint
       - uses: yutailang0119/action-android-lint@v3
         with:
