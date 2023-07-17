@@ -1,0 +1,13 @@
+name: LinkCheck, Test, Build and Deploy
+
+on:
+  push:
+    branches:
+      - 'master'
+jobs:
+  lint:
+
+  test:
+
+  build:
+
