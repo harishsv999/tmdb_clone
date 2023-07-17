@@ -1,14 +1,19 @@
-name: LinkCheck, Test, Build and Deploy
+name: AndroidLint
 
 on:
-  push:
-    branches: [ 'master' ]
   pull_request:
-    branches: [ 'master' ]
+    paths:
+      - .github/workflows/android-lint.yml
+      - '*/src/**'
+      - gradle/**
+      - '**.gradle'
+      - gradle.properties
+      - gradlew*
 
 jobs:
-  lint:
+  android-lint:
     runs-on: ubuntu-latest
+    name: Android Application Lint Check-Up
     steps:
       - uses: actions/checkout@v3
         with:
@@ -24,11 +29,3 @@ jobs:
         with:
           report-path: build/reports/*.xml
           continue-on-error: false
-
-
-
-
-  test:
-
-  build:
-
