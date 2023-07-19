@@ -1,0 +1,7 @@
+com.harish.benchmark-pngs-0 C:\Users\002KMG744\Documents\Android_Projects\TMDB\benchmark\build\generated\res\pngs\release
+com.harish.benchmark-resValues-1 C:\Users\002KMG744\Documents\Android_Projects\TMDB\benchmark\build\generated\res\resValues\release
+com.harish.benchmark-mergeReleaseResources-2 C:\Users\002KMG744\Documents\Android_Projects\TMDB\benchmark\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.harish.benchmark-mergeReleaseResources-3 C:\Users\002KMG744\Documents\Android_Projects\TMDB\benchmark\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.harish.benchmark-merged_res-4 C:\Users\002KMG744\Documents\Android_Projects\TMDB\benchmark\build\intermediates\merged_res\release
+com.harish.benchmark-main-5 C:\Users\002KMG744\Documents\Android_Projects\TMDB\benchmark\src\main\res
+com.harish.benchmark-release-6 C:\Users\002KMG744\Documents\Android_Projects\TMDB\benchmark\src\release\res

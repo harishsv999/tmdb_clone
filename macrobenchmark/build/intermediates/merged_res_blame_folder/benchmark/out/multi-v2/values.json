@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.harish.macrobenchmark-mergeBenchmarkResources-11:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\002KMG744\\.gradle\\caches\\transforms-3\\15a6a9deb885f62bae94b7d675f7c2b6\\transformed\\jetified-core-1.5.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,11",
+                        "startColumns": "0,0",
+                        "startOffsets": "176,544",
+                        "endLines": "10,17",
+                        "endColumns": "8,8",
+                        "endOffsets": "543,909"
+                    },
+                    "to": {
+                        "startLines": "3,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "138,510",
+                        "endLines": "9,16",
+                        "endColumns": "8,8",
+                        "endOffsets": "505,875"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\002KMG744\\.gradle\\caches\\transforms-3\\a3816b216290a16cda5d3ebf12f07f6f\\transformed\\jetified-startup-runtime-1.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "82",
+                        "endOffsets": "133"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,11 +1,9 @@
 name: AndroidLint
 
 on:
-  pull_request:
-    paths:
-      - .github/workflows/android-lint.yml
-      - '*/src/**'
-  # Allows you to run this workflow manually from the Actions tab
+  push:
+    ['master']
+
   workflow_dispatch:
 jobs:
   android-lint:

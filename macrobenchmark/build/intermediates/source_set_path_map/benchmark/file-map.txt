@@ -1,0 +1,16 @@
+com.harish.macrobenchmark-jetified-benchmark-macro-junit4-1.1.1-0 C:\Users\002KMG744\.gradle\caches\transforms-3\106d04223d4734baaef6ba4365389e56\transformed\jetified-benchmark-macro-junit4-1.1.1\res
+com.harish.macrobenchmark-jetified-core-1.5.0-1 C:\Users\002KMG744\.gradle\caches\transforms-3\15a6a9deb885f62bae94b7d675f7c2b6\transformed\jetified-core-1.5.0\res
+com.harish.macrobenchmark-jetified-tracing-1.1.0-2 C:\Users\002KMG744\.gradle\caches\transforms-3\224549bdecc455547c0b08ae0bd9ecd5\transformed\jetified-tracing-1.1.0\res
+com.harish.macrobenchmark-jetified-annotation-experimental-1.1.0-3 C:\Users\002KMG744\.gradle\caches\transforms-3\239ce9e241f9f922437ba93f34c645bd\transformed\jetified-annotation-experimental-1.1.0\res
+com.harish.macrobenchmark-jetified-benchmark-macro-1.1.1-4 C:\Users\002KMG744\.gradle\caches\transforms-3\6b6325ff55284f3b206296a42fc8c685\transformed\jetified-benchmark-macro-1.1.1\res
+com.harish.macrobenchmark-jetified-profileinstaller-1.0.3-5 C:\Users\002KMG744\.gradle\caches\transforms-3\8699861558bd7c90ffcf094aa8b77ba6\transformed\jetified-profileinstaller-1.0.3\res
+com.harish.macrobenchmark-jetified-tracing-ktx-1.1.0-6 C:\Users\002KMG744\.gradle\caches\transforms-3\86ae6ff53986cf54f8b7d5f2392a7190\transformed\jetified-tracing-ktx-1.1.0\res
+com.harish.macrobenchmark-jetified-startup-runtime-1.0.0-7 C:\Users\002KMG744\.gradle\caches\transforms-3\a3816b216290a16cda5d3ebf12f07f6f\transformed\jetified-startup-runtime-1.0.0\res
+com.harish.macrobenchmark-jetified-benchmark-common-1.1.1-8 C:\Users\002KMG744\.gradle\caches\transforms-3\b24033263671c3c4f6960ebb01293c96\transformed\jetified-benchmark-common-1.1.1\res
+com.harish.macrobenchmark-pngs-9 C:\Users\002KMG744\Documents\Android_Projects\TMDB\macrobenchmark\build\generated\res\pngs\benchmark
+com.harish.macrobenchmark-resValues-10 C:\Users\002KMG744\Documents\Android_Projects\TMDB\macrobenchmark\build\generated\res\resValues\benchmark
+com.harish.macrobenchmark-mergeBenchmarkResources-11 C:\Users\002KMG744\Documents\Android_Projects\TMDB\macrobenchmark\build\intermediates\incremental\benchmark\mergeBenchmarkResources\merged.dir
+com.harish.macrobenchmark-mergeBenchmarkResources-12 C:\Users\002KMG744\Documents\Android_Projects\TMDB\macrobenchmark\build\intermediates\incremental\benchmark\mergeBenchmarkResources\stripped.dir
+com.harish.macrobenchmark-merged_res-13 C:\Users\002KMG744\Documents\Android_Projects\TMDB\macrobenchmark\build\intermediates\merged_res\benchmark
+com.harish.macrobenchmark-benchmark-14 C:\Users\002KMG744\Documents\Android_Projects\TMDB\macrobenchmark\src\benchmark\res
+com.harish.macrobenchmark-main-15 C:\Users\002KMG744\Documents\Android_Projects\TMDB\macrobenchmark\src\main\res
