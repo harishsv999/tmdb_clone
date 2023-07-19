@@ -15,7 +15,8 @@
         android:layout_marginTop="4dp"
         android:paddingVertical="16dp"
         android:paddingStart="8dp"
-        android:text="Popular Movies" />
+        android:text="@string/popular_movies_string"
+        tools:ignore="RtlSymmetry" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/dashBoardLayouts"
