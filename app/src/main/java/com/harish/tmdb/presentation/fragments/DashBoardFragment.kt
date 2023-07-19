@@ -1,18 +1,13 @@
 package com.harish.tmdb.presentation.fragments
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.navigation.navGraphViewModels
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.RecyclerView.ItemDecoration
-import com.harish.tmdb.R
 import com.harish.tmdb.databinding.FragmentDashBoardBinding
 import com.harish.tmdb.presentation.adapters.GridLayoutAdapter
 import com.harish.tmdb.presentation.utils.SpacesItemDecoration
@@ -40,6 +35,7 @@ class DashBoardFragment @Inject constructor() : Fragment() {
         viewModel.initialize()
         with(binding.dashBoardLayouts) {
             viewModel.pageState.observe(viewLifecycleOwner) {
+                binding.progressIndicator.isVisible = it == null
                 binding.dashBoardLayouts.isVisible = it == false
             }
             viewModel.movies.observe(viewLifecycleOwner) { movies ->
@@ -50,6 +46,7 @@ class DashBoardFragment @Inject constructor() : Fragment() {
                 }
             }
         }
+        Thread.sleep(10000)
     }
 
     override fun onDestroyView() {

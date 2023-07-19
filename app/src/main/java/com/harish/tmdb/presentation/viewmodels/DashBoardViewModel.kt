@@ -1,5 +1,6 @@
 package com.harish.tmdb.presentation.viewmodels
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -29,6 +30,7 @@ class DashBoardViewModel @Inject constructor(private val moviesRepo: MoviesListR
         disposable.add(
             moviesRepo.findPopularMovies().subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread()).subscribe({
+                    Log.i("PRESENT_THREAD", Thread.currentThread().toString())
                     _pageState.value = false
                     _moviesList.value = it
                 }, {
